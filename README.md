@@ -2,14 +2,37 @@
 
 **English** · [Türkçe](../edulab-tr/README.md) · [简体中文](https://github.com/wy51ai/edulab/blob/master/README.zh-CN.md)
 
+> **Localization note**: This is an English-localized version of the original [wy51ai/edulab](https://github.com/wy51ai/edulab). Skill descriptions, trigger words, and workflow instructions have been translated. Core computation kernels, templates, and media are unchanged.
+
 A collection of education skills that turn academic problems into **interactive lesson web pages** and **narrated explainer videos**.
+
+## How to use
+
+1. **Install the skills** (choose one):
+   ```bash
+   npx skills add msaran1923/edulab-en
+   ```
+   Or as a Claude Code plugin:
+   ```
+   /plugin marketplace add msaran1923/edulab-en
+   /plugin install edulab
+   ```
+
+2. **Trigger a skill** by describing what you want in English, for example:
+   - “Create an interactive solid geometry page for this cube problem”
+   - “Make an analytic geometry solution page for this ellipse chord length problem”
+   - “Turn this math problem into an explainer video”
+
+3. **The agent follows the skill workflow**: it solves with the exact sympy kernel, assembles a self-contained HTML page (or video), and delivers the result in your current directory.
+
+4. **For videos**: set `TTS_ENGINE=edge` (or leave as `auto`) to use edge-tts English voices instead of the original Chinese GLM-TTS.
 
 ## Install
 
 **Recommended** — install with [skills](https://github.com/vercel-labs/skills) in one command:
 
 ```bash
-npx skills add wy51ai/edulab
+npx skills add msaran1923/edulab-en
 ```
 
 To update to the latest version later:
@@ -18,12 +41,12 @@ To update to the latest version later:
 npx skills update
 ```
 
-> **Note:** `npx skills update` only refreshes skills you've **already** installed — it does **not** pull in skills newly added to the repo. When this repo gains a new skill (e.g. a new `edu-*`), run `npx skills add wy51ai/edulab` again to install it.
+> **Note:** `npx skills update` only refreshes skills you've **already** installed — it does **not** pull in skills newly added to the repo. When this repo gains a new skill (e.g. a new `edu-*`), run `npx skills add msaran1923/edulab-en` again to install it.
 
 Or use it as a Claude Code plugin marketplace:
 
 ```
-/plugin marketplace add wy51ai/edulab
+/plugin marketplace add msaran1923/edulab-en
 /plugin install edulab
 ```
 
