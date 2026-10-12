@@ -1,0 +1,147 @@
+[
+  {
+    "scene": "intro",
+    "lines": [
+      {
+        "en": "P is the cone apex; O is the base center."
+      },
+      {
+        "zh": "AB ， AB = 2。",
+        "tts": "AB，AB。",
+        "en": "AB is a diameter of length 2."
+      },
+      {
+        "en": "Part 1: PA makes an angle of pi over 3 with the base."
+      },
+      {
+        "zh": "。",
+        "tts": "。",
+        "en": "Find the lateral surface area."
+      },
+      {
+        "en": "Part 2: Q is the midpoint of the generator PA."
+      },
+      {
+        "zh": "C、D 。",
+        "tts": "CD。",
+        "en": "C and D lie on the base circle."
+      },
+      {
+        "zh": " AC  π/3。",
+        "tts": "AC。",
+        "en": "Arc AC has length pi over 3."
+      },
+      {
+        "zh": "CD ∥ AB。",
+        "tts": "CDAB。",
+        "en": "CD is parallel to AB."
+      },
+      {
+        "zh": "T  OC 。",
+        "tts": "TOC。",
+        "en": "T moves along segment OC."
+      },
+      {
+        "zh": "：QT ∥  PBD。",
+        "tts": "，QTPBD。",
+        "en": "Prove that QT is parallel to plane PBD."
+      }
+    ]
+  },
+  {
+    "scene": "area",
+    "lines": [
+      {
+        "zh": " OA = AB/2 = 1。",
+        "en": "The radius is OA = AB/2 = 1."
+      },
+      {
+        "zh": "PO ，PA  AO。",
+        "en": "PO is perpendicular to the base; PA projects onto AO."
+      },
+      {
+        "zh": " ∠PAO = π/3 = 60°。",
+        "en": "Thus angle PAO is pi over 3, or 60 degrees."
+      },
+      {
+        "zh": "cos 60° = OA/PA， PA = 2。",
+        "en": "Since cos 60 degrees = OA/PA, the slant height PA is 2."
+      },
+      {
+        "zh": " S = πrl = π × 1 × 2 = 2π。",
+        "en": "The lateral area is pi times radius times slant height: 2 pi."
+      }
+    ]
+  },
+  {
+    "scene": "base",
+    "lines": [
+      {
+        "en": "In the top view, arc length divided by radius gives 60 degrees."
+      },
+      {
+        "zh": " OM ⊥ CD， CM = MD。",
+        "en": "Draw OM perpendicular to CD. Then CM = MD."
+      },
+      {
+        "zh": " CD ∥ AB， ∠OCM = ∠COA = 60°。",
+        "en": "Since CD is parallel to AB, angle OCM equals angle COA: 60 degrees."
+      },
+      {
+        "zh": "CM = OC cos 60° = 1/2， CD = 1。",
+        "en": "CM = OC cos 60 degrees = 1/2, so CD = 1."
+      },
+      {
+        "zh": "CD  OB 。",
+        "tts": "CDOB，。",
+        "en": "CD and OB are parallel and have equal lengths."
+      },
+      {
+        "en": "OCDB is a parallelogram, so OC is parallel to BD."
+      }
+    ]
+  },
+  {
+    "scene": "parallel",
+    "lines": [
+      {
+        "zh": "： OQ。",
+        "tts": "[kōng][jiān]，OQ。",
+        "en": "Return to the spatial view and join OQ."
+      },
+      {
+        "en": "In triangle PAB, O and Q are the midpoints of AB and AP."
+      },
+      {
+        "zh": "，OQ ∥ BP。",
+        "en": "The midpoint theorem gives OQ parallel to BP."
+      },
+      {
+        "en": "Together with OC parallel to BD, two intersecting pairs are parallel."
+      },
+      {
+        "en": "The plane parallelism criterion gives plane QOC parallel to plane PBD."
+      },
+      {
+        "en": "As T lies on OC, line QT lies in plane QOC."
+      },
+      {
+        "en": "The planes are disjoint, so QT is parallel to plane PBD."
+      }
+    ]
+  },
+  {
+    "scene": "outro",
+    "lines": [
+      {
+        "en": "Part 1: find the projection and slant height. The area is 2 pi."
+      },
+      {
+        "en": "Part 2: combine the base geometry with the midpoint theorem."
+      },
+      {
+        "en": "For every T on OC, QT is parallel to plane PBD."
+      }
+    ]
+  }
+]

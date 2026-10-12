@@ -1,0 +1,15 @@
+{
+  "name": "edulab",
+  "owner": {
+    "name": "WY"
+  },
+  "plugins": [
+    {
+      "name": "edulab",
+      "source": {
+        "source": "github",
+        "repo": "wy51ai/edulab"
+      },
+    }
+  ]
+}
