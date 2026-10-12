@@ -31,7 +31,7 @@ Once installed, the skills activate on their trigger words, and can also be invo
 
 ## Skill: edu-solid-geometry
 
-![edu-solid-geometry demo](edu-solid-geometry.gif)
+![edu-solid-geometry demo](edu-solid-geometry.jpg)
 
 Solves one solid geometry problem into a self-contained interactive lesson page. Three entry points:
 
@@ -67,7 +67,7 @@ python3 lib/geometry_kernel.py                     # kernel built-in self-check
 
 ## Skill: edu-analytic-geometry
 
-![edu-analytic-geometry demo](edu-analytic-geometry.gif)
+![edu-analytic-geometry demo](edu-analytic-geometry.jpg)
 
 Solves one analytic geometry (conic sections) problem into a self-contained interactive lesson page. Same three entry points as above (text / image / random). Built on a **2D Canvas board + KaTeX** with a generic, data-driven interactive engine: a parameter slider drives derived constructions (line∩conic, point-on-conic, central reflection, tangent…) and live readouts, with a theoretical-range bar or a fixed-value indicator.
 
@@ -106,9 +106,14 @@ Turns one math problem (geometry, algebra, functions, motion problems…) into a
 
 **Trigger words**: math explainer video, walkthrough video, problem-solving video, micro-lesson.
 
-## Skill: edu-physics-video and edu-chem-video
+## Skill: edu-chem-reaction
+![edu-chem-reaction demo](edu-chem-reaction.jpg)
 
-Similar video pipelines for physics and chemistry problems. Same TTS adaptations apply.
+## Skill: edu-math-video
+![edu-math-video demo](edu-math-video.jpg)
+
+## Skill: edu-physics-video
+![edu-physics-video demo](edu-physics-video.jpg)
 
 ## How it works
 
